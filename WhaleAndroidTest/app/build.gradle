@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId "com.bob.whaletest"
         minSdkVersion 22
-        targetSdkVersion 28
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
 

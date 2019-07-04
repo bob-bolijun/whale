@@ -18,9 +18,37 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="测试自定义类"
-                android:onClick="hookFile"
-                android:layout_marginBottom="20dp"/>
+                android:text="修改输入参数"
+                android:onClick="changeParam"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改输出参数"
+                android:onClick="changeReturn"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="不调用原函数"
+                android:onClick="notCallOrg"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="File getAbsolutePath"
+                android:onClick="file_getAbsolutePath"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FileOutputStream write"
+                android:onClick="fileOutputStream_write"
+                android:layout_marginBottom="10dp"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
